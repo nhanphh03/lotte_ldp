@@ -24,7 +24,7 @@ services:
       - --storageEngine=wiredTiger
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: Nhan22@@
+      MONGO_INITDB_ROOT_PASSWORD: Nhan22
       MONGO_INITDB_DATABASE: payload_cms
     volumes:
       - data:/data/db
